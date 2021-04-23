@@ -18,3 +18,5 @@ To deploy app You need <a href="http://www.oracle.com/technetwork/pt/java/javase
 	
 ```
 
+heroku app
+https://phone-directory-project.herokuapp.com/
