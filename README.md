@@ -18,20 +18,3 @@ To deploy app You need <a href="http://www.oracle.com/technetwork/pt/java/javase
 	
 ```
 
-## Database configuration
-
-In case you want to run it with local postgres database
-open PostgreSQL console editor and execute following commands
-```       
-    CREATE DATABASE phonebook;   
-    CREATE USER bookuser WITH password 'password';     
-    GRANT ALL privileges ON DATABASE phonebook TO bookuser; 
-```
-then go to project folder and execute
-```
-   ./mvnw spring-boot:run -Drun.jvmArguments="-Dspring.profiles.active=postgres" -P postgres 
-```
-You will find your running app at http://localhost:9696/phonebook 
-
-<a href="https://phone-book01.herokuapp.com">Demo of application deployed on heroku cloud platform</a># phone-directory-project
-# phone-directory-project
